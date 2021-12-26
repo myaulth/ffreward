@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    background-image: url(background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+header
+{
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+}
+#logo
+{
+    width: 200px;
+    padding-left: 5px;
+}
+.main
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.main-text
+{
+    margin-top:80px;
+    text-align: center;
+    color: white;
+    /* border: 1px solid rebeccapurple; */
+}
+.main-text>h1
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+}
+.main-text>p
+{
+    font-family:sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+}
+.login-menu
+{
+    justify-content: center;
+    display: flex;
+    margin-top: 15px;
+}
+.login-menu ul
+{
+    display: flex;
+}
+.login-menu ul li
+{
+    list-style: none;
+    margin: 1px;
+}
+.login-menu ul img
+{
+    width: 30px;
+    cursor: pointer;
+}
+.login-menu ul img:hover
+{
+    filter: grayscale(2);
+}
+.notice
+{
+    background-color: yellow;
+    box-sizing: border-box;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 40px;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+.notice>h3
+{
+    font-size: 12px;
+}
+.notice p
+{
+    font-size: 12px;
+    font-family: 'Segoe UI';
+}
+footer
+{
+    position: relative;
+    bottom: 0;
+    margin-top: 20px;;
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+}
+.copyright-info
+{
+    margin: 5px;
+}
+#footer-icon
+{
+    width: 35px;
+    vertical-align: center;
+    border-radius: 5px;
+}
